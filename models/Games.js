@@ -2,9 +2,9 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 // Create Project model and datatypes, including the user_id foreign key.
-class Favorites extends Model {}
+class Games extends Model {}
 
-Favorites.init(
+Games.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -16,28 +16,29 @@ Favorites.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    game_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'Game',
-        key: 'id',
-      },
+    description: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'User',
-        key: 'id',
-      },
+    mood: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
+    imgLink: {
+      type: DataTypes.STRING,
+      validate: {
+        isUrl: true,
+      },
+      allowNull: false,
+    }
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'favorites',
+    modelName: 'games',
   }
 );
 
-module.exports = Favorites;
+module.exports = Games;
