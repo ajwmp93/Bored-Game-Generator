@@ -1,237 +1,191 @@
 [
-  {
-      "name": "Secret Hitler",
-      "description": "Card game of deception and deduction.",
-      "moods": ["SUS", "Inquisitive"]
-  },
-  {
-      "name": "Werewolf",
-      "description": "Party game involving hidden roles and deception.",
-      "moods": ["SUS", "Heroic"]
-  },
-  {
-      "name": "The Resistance",
-      "description": "Card game of hidden roles and deceit.",
-      "moods": ["SUS", "Inquisitive"]
-  },
-  {
-      "name": "Among Us",
-      "description": "Multiplayer game where players work together to complete tasks while some sabotage.",
-      "moods": ["SUS", "Happily Self-Sufficient"]
-  },
-  {
-      "name": "Mafia",
-      "description": "Party game where players are assigned roles and must figure out who is part of the mafia.",
-      "moods": ["SUS", "Heroic"]
-  },
-  {
-      "name": "Escape Room",
-      "description": "Puzzle game where players solve challenges to escape a locked room.",
-      "moods": ["Inquisitive", "Happily Self-Sufficient"]
-  },
-  {
-      "name": "Codenames",
-      "description": "Word-based game where teams compete to guess the words linked by clues.",
-      "moods": ["Inquisitive", "Happily Self-Sufficient"]
-  },
-  {
-      "name": "Pandemic",
-      "description": "Cooperative board game where players work together to stop global outbreaks.",
-      "moods": ["Heroic", "Survival"]
-  },
-  {
-      "name": "Ticket to Ride",
-      "description": "Board game of building train routes across a map.",
-      "moods": ["Happily Self-Sufficient", "Heroic"]
-  },
-  {
-      "name": "Clue",
-      "description": "Board game of solving a murder mystery.",
-      "moods": ["Inquisitive", "Happily Self-Sufficient"]
-  },
-  {
-      "name": "Dead of Winter",
-      "description": "Survival game set in a zombie apocalypse with hidden objectives.",
-      "moods": ["Survival", "Spoopy"]
-  },
-  {
-      "name": "Left 4 Dead",
-      "description": "First-person shooter game with cooperative gameplay in a zombie apocalypse.",
-      "moods": ["Survival", "Spoopy"]
-  },
-  {
-      "name": "Resident Evil",
-      "description": "Horror game series featuring survival against zombies and monsters.",
-      "moods": ["Spoopy", "Survival"]
-  },
-  {
-      "name": "Silent Hill",
-      "description": "Horror game known for its psychological horror elements.",
-      "moods": ["Spoopy"]
-  },
-  {
-      "name": "Dark Souls",
-      "description": "Action RPG game with challenging gameplay and dark themes.",
-      "moods": ["Heroic", "Spoopy"]
-  },
-  {
-      "name": "The Last of Us",
-      "description": "Action-adventure game set in a post-apocalyptic world.",
-      "moods": ["Survival", "Heroic"]
-  },
-  {
-      "name": "Minecraft",
-      "description": "Sandbox game allowing players to build and explore worlds.",
-      "moods": ["Happily Self-Sufficient", "Inquisitive"]
-  },
-  {
-      "name": "Portal",
-      "description": "Puzzle game involving the use of portals to solve challenges.",
-      "moods": ["Inquisitive"]
-  },
-  {
-      "name": "Gloomhaven",
-      "description": "Cooperative tactical RPG board game with a fantasy setting.",
-      "moods": ["Heroic", "Inquisitive"]
-  },
-  {
-      "name": "Dixit",
-      "description": "Card game of abstract storytelling and interpretation.",
-      "moods": ["Inquisitive", "Happily Self-Sufficient"]
-  },
-  {
-      "name": "Catan",
-      "description": "Board game of resource management and strategy.",
-      "moods": ["Happily Self-Sufficient"]
-  },
-  {
-      "name": "Monopoly",
-      "description": "Board game of real estate trading and strategy.",
-      "moods": ["Happily Self-Sufficient"]
-  },
-  {
-      "name": "Garry's Mod",
-      "description": "Sandbox game that allows players to create and manipulate game environments.",
-      "moods": ["Happily Self-Sufficient", "Inquisitive"]
-  },
-  {
-      "name": "Hades",
-      "description": "Action roguelike game set in the underworld with mythological elements.",
-      "moods": ["Heroic", "Spoopy"]
-  },
-  {
-      "name": "Uncharted",
-      "description": "Action-adventure game featuring treasure hunting and exploration.",
-      "moods": ["Heroic", "Happily Self-Sufficient"]
-  },
-  {
-      "name": "A Way Out",
-      "description": "Co-op game where players must work together to escape prison.",
-      "moods": ["Heroic", "Survival"]
-  },
-  {
-      "name": "Hollow Knight",
-      "description": "Action-adventure game set in a dark, mysterious world.",
-      "moods": ["Spoopy", "Inquisitive"]
-  },
-  {
-      "name": "Bloodborne",
-      "description": "Action RPG set in a gothic horror world.",
-      "moods": ["Spoopy", "Heroic"]
-  },
-  {
-      "name": "Overcooked",
-      "description": "Cooperative cooking simulation game with chaotic gameplay.",
-      "moods": ["Happily Self-Sufficient"]
-  },
-  {
-      "name": "Wingspan",
-      "description": "Board game focused on bird conservation and strategy.",
-      "moods": ["Happily Self-Sufficient"]
-  },
-  {
-      "name": "Fiasco",
-      "description": "Storytelling game focused on creating disastrous events.",
-      "moods": ["Inquisitive"]
-  },
-  {
-      "name": "Zombicide",
-      "description": "Cooperative game where players fight against hordes of zombies.",
-      "moods": ["Survival", "Heroic"]
-  },
-  {
-      "name": "The Binding of Isaac",
-      "description": "Roguelike dungeon crawler with dark and disturbing themes.",
-      "moods": ["Spoopy", "Inquisitive"]
-  },
-  {
-      "name": "Hunt: Showdown",
-      "description": "Multiplayer first-person shooter with a focus on hunting monsters.",
-      "moods": ["Survival", "Spoopy"]
-  },
-  {
-      "name": "Dead by Daylight",
-      "description": "Asymmetric survival horror game with one player as the killer and others as survivors.",
-      "moods": ["Spoopy", "Survival"]
-  },
-  {
-      "name": "Escape the Room",
-      "description": "Puzzle game where players solve riddles to escape a room.",
-      "moods": ["Inquisitive"]
-  },
-  {
-      "name": "Sheriff of Nottingham",
-      "description": "Card game involving bluffing and negotiation.",
-      "moods": ["SUS"]
-  },
-  {
-      "name": "Mysterium",
-      "description": "Cooperative game where players use clues to solve a murder mystery.",
-      "moods": ["Inquisitive", "Spoopy"]
-  },
-  {
-      "name": "Chronicles of Crime",
-      "description": "Crime-solving game using virtual reality and physical clues.",
-      "moods": ["Inquisitive"]
-  },
-  {
-      "name": "Codenames: Duet",
-      "description": "Cooperative word game where players give clues to find hidden agents.",
-      "moods": ["Inquisitive"]
-  },
-  {
-      "name": "Ticket to Ride: Europe",
-      "description": "Board game of building train routes across Europe.",
-      "moods": ["Happily Self-Sufficient"]
-  },
-  {
-      "name": "Forbidden Island",
-      "description": "Cooperative game where players work to recover artifacts from a sinking island.",
-      "moods": ["Heroic", "Survival"]
-  },
-  {
-      "name": "Gloomhaven: Jaws of the Lion",
-      "description": "Simplified version of Gloomhaven with cooperative tactical gameplay.",
-      "moods": ["Heroic", "Inquisitive"]
-  },
-  {
-      "name": "Arkham Horror: The Card Game",
-      "description": "Cooperative card game set in the Lovecraftian horror universe.",
-      "moods": ["Spoopy"]
-  },
-  {
-      "name": "Escape from Tarkov",
-      "description": "First-person shooter game with a focus on realistic survival.",
-      "moods": ["Survival"]
-  },
-  {
-      "name": "Valorant",
-      "description": "Tactical first-person shooter game with character-based abilities.",
-      "moods": ["Survival"]
-  },
-  {
-      "name": "The Quarry",
-      "description": "Interactive drama and horror game where choices affect the outcome.",
-      "moods": ["Spoopy"]
-  }
+    {
+        "title": "Secret Hitler",
+        "description": "Card game of deception and deduction.",
+        "mood": ["SUS", "Inquisitive"],
+        "img_url": "https://example.com/secret_hitler.jpg",
+        "site_url": "https://www.secrethitler.com"
+    },
+    {
+        "title": "Werewolf",
+        "description": "Party game involving hidden roles and deception.",
+        "mood": ["SUS", "Heroic"],
+        "img_url": "https://example.com/werewolf.jpg",
+        "site_url": "https://www.werewolfgame.com"
+    },
+    {
+        "title": "The Resistance",
+        "description": "Card game of hidden roles and deceit.",
+        "mood": ["SUS", "Inquisitive"],
+        "img_url": "https://example.com/the_resistance.jpg",
+        "site_url": "https://www.indieboardsandcards.com/resistance"
+    },
+    {
+        "title": "Among Us",
+        "description": "Multiplayer game where players work together to complete tasks while some sabotage.",
+        "mood": ["SUS", "Happily Self-Sufficient"],
+        "img_url": "https://example.com/among_us.jpg",
+        "site_url": "https://www.innersloth.com/gameAmongUs.php"
+    },
+    {
+        "title": "Mafia",
+        "description": "Party game where players are assigned roles and must figure out who is part of the mafia.",
+        "mood": ["SUS", "Heroic"],
+        "img_url": "https://example.com/mafia.jpg",
+        "site_url": "https://www.mafiagame.com"
+    },
+    {
+        "title": "Escape Room",
+        "description": "Puzzle game where players solve challenges to escape a locked room.",
+        "mood": ["Inquisitive", "Happily Self-Sufficient"],
+        "img_url": "https://example.com/escape_room.jpg",
+        "site_url": "https://www.escaperoom.com"
+    },
+    {
+        "title": "CodeNames",
+        "description": "Word-based game where teams compete to guess the words linked by clues.",
+        "mood": ["Inquisitive", "Happily Self-Sufficient"],
+        "img_url": "https://example.com/codenames.jpg",
+        "site_url": "https://czechgames.com/en/codenames/"
+    },
+    {
+        "title": "Pandemic",
+        "description": "Cooperative board game where players work together to stop global outbreaks.",
+        "mood": ["Heroic", "Survival"],
+        "img_url": "https://example.com/pandemic.jpg",
+        "site_url": "https://www.zmangames.com/en/products/pandemic/"
+    },
+    {
+        "title": "Ticket to Ride",
+        "description": "Board game of building train routes across a map.",
+        "mood": ["Happily Self-Sufficient", "Heroic"],
+        "img_url": "https://example.com/ticket_to_ride.jpg",
+        "site_url": "https://www.daysofwonder.com/tickettoride/en/"
+    },
+    {
+        "title": "Clue",
+        "description": "Board game of solving a murder mystery.",
+        "mood": ["Inquisitive", "Happily Self-Sufficient"],
+        "img_url": "https://example.com/clue.jpg",
+        "site_url": "https://www.clue.com"
+    },
+    {
+        "title": "Dead of Winter",
+        "description": "Survival game set in a zombie apocalypse with hidden objectives.",
+        "mood": ["Survival", "Spoopy"],
+        "img_url": "https://example.com/dead_of_winter.jpg",
+        "site_url": "https://www.plaidhatgames.com/games/dead-of-winter/"
+    },
+    {
+        "title": "Left 4 Dead",
+        "description": "First-person shooter game with cooperative gameplay in a zombie apocalypse.",
+        "mood": ["Survival", "Spoopy"],
+        "img_url": "https://example.com/left_4_dead.jpg",
+        "site_url": "https://left4dead.com/"
+    },
+    {
+        "title": "Resident Evil",
+        "description": "Horror game series featuring survival against zombies and monsters.",
+        "mood": ["Spoopy", "Survival"],
+        "img_url": "https://example.com/resident_evil.jpg",
+        "site_url": "https://www.residentevil.com/"
+    },
+    {
+        "title": "Silent Hill",
+        "description": "Horror game known for its psychological horror elements.",
+        "mood": ["Spoopy"],
+        "img_url": "https://example.com/silent_hill.jpg",
+        "site_url": "https://www.silenthill.com/"
+    },
+    {
+        "title": "Dark Souls",
+        "description": "Action RPG game with challenging gameplay and dark themes.",
+        "mood": ["Heroic", "Spoopy"],
+        "img_url": "https://example.com/dark_souls.jpg",
+        "site_url": "https://www.darksouls3.com/"
+    },
+    {
+        "title": "The Last of Us",
+        "description": "Action-adventure game set in a post-apocalyptic world.",
+        "mood": ["Survival", "Heroic"],
+        "img_url": "https://example.com/the_last_of_us.jpg",
+        "site_url": "https://www.thelastofus.playstation.com/"
+    },
+    {
+        "title": "Minecraft",
+        "description": "Sandbox game allowing players to build and explore worlds.",
+        "mood": ["Happily Self-Sufficient", "Inquisitive"],
+        "img_url": "https://example.com/minecraft.jpg",
+        "site_url": "https://www.minecraft.net/"
+    },
+    {
+        "title": "Portal",
+        "description": "Puzzle game involving the use of portals to solve challenges.",
+        "mood": ["Inquisitive"],
+        "img_url": "https://example.com/portal.jpg",
+        "site_url": "https://store.steampowered.com/app/400/"
+    },
+    {
+        "title": "Gloomhaven",
+        "description": "Cooperative tactical RPG board game with a fantasy setting.",
+        "mood": ["Heroic", "Inquisitive"],
+        "img_url": "https://example.com/gloomhaven.jpg",
+        "site_url": "https://www.cephalofair.com/gloomhaven/"
+    },
+    {
+        "title": "Dixit",
+        "description": "Card game of abstract storytelling and interpretation.",
+        "mood": ["Inquisitive", "Happily Self-Sufficient"],
+        "img_url": "https://example.com/dixit.jpg",
+        "site_url": "https://www.libellud.com/dixit/"
+    },
+    {
+        "title": "Catan",
+        "description": "Board game of resource management and strategy.",
+        "mood": ["Happily Self-Sufficient"],
+        "img_url": "https://example.com/catan.jpg",
+        "site_url": "https://www.catan.com/"
+    },
+    {
+        "title": "Monopoly",
+        "description": "Board game of real estate trading and strategy.",
+        "mood": ["Happily Self-Sufficient"],
+        "img_url": "https://example.com/monopoly.jpg",
+        "site_url": "https://www.monopoly.com/"
+    },
+    {
+        "title": "Garry’s Mod",
+        "description": "Sandbox game that allows players to create and manipulate game environments.",
+        "mood": ["Happily Self-Sufficient", "Inquisitive"],
+        "img_url": "https://example.com/garrys_mod.jpg",
+        "site_url": "https://garrysmod.com/"
+    },
+    {
+        "title": "Hades",
+        "description": "Action roguelike game set in the underworld with mythological elements.",
+        "mood": ["Heroic", "Spoopy"],
+        "img_url": "https://example.com/hades.jpg",
+        "site_url": "https://www.supergiantgames.com/games/hades/"
+    },
+    {
+        "title": "Uncharted",
+        "description": "Action-adventure game featuring treasure hunting and exploration.",
+        "mood": ["Heroic", "Happily Self-Sufficient"],
+        "img_url": "https://example.com/uncharted.jpg",
+        "site_url": "https://www.unchartedthegame.com/"
+    },
+    {
+        "title": "A Way Out",
+        "description": "Co-op game where players must work together to escape prison.",
+        "mood": ["Heroic", "Survival"],
+        "img_url": "https://example.com/a_way_out.jpg",
+        "site_url": "https://www.ea.com/games/a-way-out"
+    },
+    {
+        "title": "Hollow Knight",
+        "description": "Action-adventure game set in a dark, mysterious world.",
+        "mood": ["Spoopy", "Inquisitive"],
+        "img_url": "https://example.com/hollow_knight.jpg",
+        "site_url": "https://hollowknight.com/"
+    }
 ]

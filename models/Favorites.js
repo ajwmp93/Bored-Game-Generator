@@ -12,21 +12,17 @@ Favorites.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    title: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
     game_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'Game',
+        model: 'games',
         key: 'id',
       },
     },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'User',
+        model: 'user',
         key: 'id',
       },
     },

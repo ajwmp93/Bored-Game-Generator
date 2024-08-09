@@ -1,19 +1,22 @@
-
-
-
-
+{{ user.name }}
+{{#each user.games as |game|}}
+{{> gameCard}}
+{{/each}}
 <div class="columns is-multiline">
   <div class="column is-one-quarter">
     <div class="card">
-      <div class="card-image">
+            <div class="card-image">
         <figure class="image is-4by3">
-          <a href="{{SUS}}"></a>
+          <a href="/sus">
           <img
             src="https://bulma.io/assets/images/placeholders/1280x960.png"
             alt="Placeholder image"
           />
+          </a>
         </figure>
       </div>
+
+
       <div class="card-content">
         <div class="media">
           <div class="media-left">
@@ -42,10 +45,12 @@
       <div class="card-image">
         <figure class="image is-4by3">
           <a href="{{Spoopy}}"></a>
+          <a href="/spoopy">
           <img
             src="https://bulma.io/assets/images/placeholders/1280x960.png"
             alt="Placeholder image"
           />
+          </a>
         </figure>
       </div>
       <div class="card-content">
@@ -75,10 +80,12 @@
       <div class="card-image">
         <figure class="image is-4by3">
           <a href="{{Heroic}}"></a>
+          <a href="/heroic">
           <img
             src="https://bulma.io/assets/images/placeholders/1280x960.png"
             alt="Placeholder image"
           />
+          </a>
         </figure>
       </div>
       <div class="card-content">
@@ -109,10 +116,12 @@
       <div class="card-image">
         <figure class="image is-4by3">
           <a href="{{Survival}}"></a>
+          <a href="/survival">
           <img
             src="https://bulma.io/assets/images/placeholders/1280x960.png"
             alt="Placeholder image"
           />
+          </a>
         </figure>
       </div>
       <div class="card-content">

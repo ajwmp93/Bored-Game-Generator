@@ -24,13 +24,20 @@ Games.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    imgLink: {
+    img_url: {
       type: DataTypes.STRING,
       validate: {
         isUrl: true,
       },
       allowNull: false,
-    }
+    },
+    site_url: {
+      type: DataTypes.STRING,
+      validate: {
+        isUrl: true,
+      },
+      allowNull: false,
+    },
   },
   {
     sequelize,
