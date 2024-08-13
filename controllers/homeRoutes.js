@@ -1,17 +1,18 @@
-const { Games, User } = require('../models');
+const express = require('express');
+const router = express.Router();
+const { Games, User } = require('../models'); 
 
-const router = require('express').Router();
-
-// home, login, individual project
+// Home route
 router.get('/', async (req, res) => {
+  res.render('homepage');
+});
 
-    res.render('homepage') ;
-})
-
+// Login route
 router.get('/login', (req, res) => {
   res.render('login');
-})
+});
 
+// Favorites route
 router.get('/favorites', async (req, res) => {
   try {
     const userData = await User.findByPk(1, {
