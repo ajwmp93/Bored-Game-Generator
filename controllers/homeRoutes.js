@@ -13,14 +13,19 @@ router.get('/login', (req, res) => {
 })
 
 router.get('/favorites', async (req, res) => {
-  const userData = await User.findByPk(1, {
-    include: Games
-  });
-  console.log(userData)
-  const user = userData.get({plain: true})
-  console.log(user)
-  res.render('favorites',  { user })
-})
+  try {
+    const userData = await User.findByPk(1, {
+      include: Games
+    });
+    const user = userData.get({ plain: true });
+    res.render('favorites', { user });
+  } catch (err) {
+    console.error('Error fetching favorites:', err);
+    res.status(500).json({ message: 'An error occurred while fetching favorites' });
+  }
+});
+
+// Route to list all available moods (if needed)
 
 router.get('/moods', async (req, res) => {
 
