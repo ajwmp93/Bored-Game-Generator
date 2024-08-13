@@ -24,9 +24,7 @@ router.get('/favorites', async (req, res) => {
     res.status(500).json({ message: 'An error occurred while fetching favorites' });
   }
 });
-
 // Route to list all available moods (if needed)
-
 router.get('/moods', async (req, res) => {
 
   console.log('moods route')
