@@ -1,0 +1,396 @@
+{
+    "junction": [
+        {
+            "game_id": 1,
+            "mood_id": 1 
+        },
+        {
+            "game_id": 1,
+            "mood_id": 2
+        },
+        {
+            "game_id": 2,
+            "mood_id": 1
+        },
+        {
+            "game_id": 2,
+            "mood_id": 4
+        },
+        {
+            "game_id": 3,
+            "mood_id": 1
+        },
+        {
+            "game_id": 3,
+            "mood_id": 2
+        },
+        {
+            "game_id": 4,
+            "mood_id": 1
+        },
+        {
+            "game_id": 4,
+            "mood_id": 3
+        },
+        {
+            "game_id": 5,
+            "mood_id": 1
+        },
+        {
+            "game_id": 5,
+            "mood_id": 4
+        },
+        {
+            "game_id": 6,
+            "mood_id": 2
+        },
+        {
+            "game_id": 6,
+            "mood_id": 3
+        },
+        {
+            "game_id": 7,
+            "mood_id": 4
+        },
+        {
+            "game_id": 7,
+            "mood_id": 5
+        },
+        {
+            "game_id": 8,
+            "mood_id": 3
+        },
+        {
+            "game_id": 8,
+            "mood_id": 4
+        },
+        {
+            "game_id": 9,
+            "mood_id": 2
+        },
+        {
+            "game_id": 9,
+            "mood_id": 3
+        },
+        {
+            "game_id": 10,
+            "mood_id": 5
+        },
+        {
+            "game_id": 10,
+            "mood_id": 6
+        },
+        {
+            "game_id": 11,
+            "mood_id": 5
+        },
+        {
+            "game_id": 11,
+            "mood_id": 6
+        },
+        {
+            "game_id": 12,
+            "mood_id": 5
+        },
+        {
+            "game_id": 12,
+            "mood_id": 6
+        },
+        {
+            "game_id": 13,
+            "mood_id": 6
+        },
+        {
+            "game_id": 14,
+            "mood_id": 4
+        },
+        {
+            "game_id": 14,
+            "mood_id": 6
+        },
+        {
+            "game_id": 15,
+            "mood_id": 4
+        },
+        {
+            "game_id": 15,
+            "mood_id": 5
+        },
+        {
+            "game_id": 16,
+            "mood_id": 2
+        },
+        {
+            "game_id": 16,
+            "mood_id": 3
+        },
+        {
+            "game_id": 17,
+            "mood_id": 2
+        },
+        {
+            "game_id": 18,
+            "mood_id": 2
+        },
+        {
+            "game_id": 18,
+            "mood_id": 4
+        },
+        {
+            "game_id": 19,
+            "mood_id": 2
+        },
+        {
+            "game_id": 19,
+            "mood_id": 3
+        },
+        {
+            "game_id": 20,
+            "mood_id": 3
+        },
+        {
+            "game_id": 21,
+            "mood_id": 3
+        },
+        {
+            "game_id": 22,
+            "mood_id": 2
+        },
+        {
+            "game_id": 22,
+            "mood_id": 3
+        },
+        {
+            "game_id": 23,
+            "mood_id": 4
+        },
+        {
+            "game_id": 23,
+            "mood_id": 6
+        },
+        {
+            "game_id": 24,
+            "mood_id": 3
+        },
+        {
+            "game_id": 24,
+            "mood_id": 4
+        },
+        {
+            "game_id": 25,
+            "mood_id": 4
+        },
+        {
+            "game_id": 25,
+            "mood_id": 5
+        },
+        {
+            "game_id": 26,
+            "mood_id": 2
+        },
+        {
+            "game_id": 26,
+            "mood_id": 6
+        },
+        {
+            "game_id": 27,
+            "mood_id": 1
+        },
+        {
+            "game_id": 27,
+            "mood_id": 4
+        },
+        {
+            "game_id": 28,
+            "mood_id": 1
+        },
+        {
+            "game_id": 28,
+            "mood_id": 2
+        },
+        {
+            "game_id": 29,
+            "mood_id": 1
+        },
+        {
+            "game_id": 29,
+            "mood_id": 2
+        },
+        {
+            "game_id": 30,
+            "mood_id": 1
+        },
+        {
+            "game_id": 30,
+            "mood_id": 4
+        },
+        {
+            "game_id": 31,
+            "mood_id": 2
+        },
+        {
+            "game_id": 31,
+            "mood_id": 4
+        },
+        {
+            "game_id": 32,
+            "mood_id": 4
+        },
+        {
+            "game_id": 32,
+            "mood_id": 6
+        },
+        {
+            "game_id": 33,
+            "mood_id": 2
+        },
+        {
+            "game_id": 33,
+            "mood_id": 4
+        },
+        {
+            "game_id": 34,
+            "mood_id": 1
+        },
+        {
+            "game_id": 34,
+            "mood_id": 4
+        },
+        {
+            "game_id": 35,
+            "mood_id": 2
+        },
+        {
+            "game_id": 35,
+            "mood_id": 3
+        },
+        {
+            "game_id": 36,
+            "mood_id": 1
+        },
+        {
+            "game_id": 36,
+            "mood_id": 6
+        },
+        {
+            "game_id": 37,
+            "mood_id": 2
+        },
+        {
+            "game_id": 37,
+            "mood_id": 3
+        },
+        {
+            "game_id": 38,
+            "mood_id": 2
+        },
+        {
+            "game_id": 38,
+            "mood_id": 3
+        },
+        {
+            "game_id": 39,
+            "mood_id": 2
+        },
+        {
+            "game_id": 39,
+            "mood_id": 3
+        },
+        {
+            "game_id": 40,
+            "mood_id": 1
+        },
+        {
+            "game_id": 40,
+            "mood_id": 6
+        },
+        {
+            "game_id": 41,
+            "mood_id": 2
+        },
+        {
+            "game_id": 41,
+            "mood_id": 3
+        },
+        {
+            "game_id": 42,
+            "mood_id": 2
+        },
+        {
+            "game_id": 42,
+            "mood_id": 4
+        },
+        {
+            "game_id": 43,
+            "mood_id": 1
+        },
+        {
+            "game_id": 43,
+            "mood_id": 4
+        },
+        {
+            "game_id": 44,
+            "mood_id": 4
+        },
+        {
+            "game_id": 44,
+            "mood_id": 5
+        },
+        {
+            "game_id": 45,
+            "mood_id": 2
+        },
+        {
+            "game_id": 45,
+            "mood_id": 4
+        },
+        {
+            "game_id": 46,
+            "mood_id": 2
+        },
+        {
+            "game_id": 46,
+            "mood_id": 2
+        },
+        {
+            "game_id": 47,
+            "mood_id": 2
+        },
+        {
+            "game_id": 47,
+            "mood_id": 4
+        },
+        {
+            "game_id": 48,
+            "mood_id": 2
+        },
+        {
+            "game_id": 48,
+            "mood_id": 4
+        },
+        {
+            "game_id": 49,
+            "mood_id": 4
+        },
+        {
+            "game_id": 49,
+            "mood_id": 6
+        },
+        {
+            "game_id": 50,
+            "mood_id": 2
+        },
+        {
+            "game_id": 50,
+            "mood_id": 3
+        },
+        {
+           "game_id": 51,
+           "mood_id": 2 
+        },
+        {
+            "game_id": 51,
+            "mood_id": 3
+        }
+    ]
+}
