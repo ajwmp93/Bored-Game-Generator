@@ -1,0 +1,29 @@
+{
+    "moods": [
+      {
+        "id": 1,
+        "name": "SUS"
+      },
+      {
+        "id": 2,
+        "name": "Inquisitive"
+      },
+      {
+        "id": 3,
+        "name": "Happily Self-Sufficient"
+      },
+      {
+        "id": 4,
+        "name": "Heroic"
+      },
+      {
+        "id": 5,
+        "name": "Survival"
+      },
+      {
+        "id": 6,
+        "name": "Spoopy"
+      }
+    ]
+  }
+  

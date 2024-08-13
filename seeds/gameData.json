@@ -2,183 +2,307 @@
     {
         "title": "Secret Hitler",
         "description": "Card game of deception and deduction.",
-        "mood": ["SUS", "Inquisitive"],
         "img_url": "https://miro.medium.com/v2/resize:fit:1400/1*8T1VQZCII0ZF-DTiwYaGtA.png",
         "site_url": "https://www.secrethitler.com"
     },
     {
         "title": "Werewolf",
         "description": "Party game involving hidden roles and deception.",
-        "mood": ["SUS", "Heroic"],
         "img_url": "https://playwerewolf.co/cdn/shop/files/werewolf_1080x.jpg?v=1614331439",
         "site_url": "https://playwerewolf.co/"
     },
     {
         "title": "The Resistance",
         "description": "Card game of hidden roles and deceit.",
-        "mood": ["SUS", "Inquisitive"],
         "img_url": "https://cf.geekdo-images.com/cAPTkL2BR3snLO71dkH8rw__itemrep/img/B-g9_MGH_PcCOh8tQ6IMKyJq6Xw=/fit-in/246x300/filters:strip_icc()/pic2576459.jpg",
         "site_url": "https://indieboardsandcards.com/our-games/the-resistance/"
     },
     {
         "title": "Among Us",
         "description": "Multiplayer game where players work together to complete tasks while some sabotage.",
-        "mood": ["SUS", "Happily Self-Sufficient"],
         "img_url": "https://cdn1.epicgames.com/salesEvent/salesEvent/amoguslandscape_2560x1440-3fac17e8bb45d81ec9b2c24655758075",
         "site_url": "https://www.innersloth.com/games/among-us/"
     },
     {
         "title": "Mafia",
         "description": "Party game where players are assigned roles and must figure out who is part of the mafia.",
-        "mood": ["SUS", "Heroic"],
         "img_url": "https://mafiathegame.benrobinson.dev/static/media/website_screenshots.001.3af474c280d48d3cc796.png",
         "site_url": "https://mafiathegame.benrobinson.dev/"
     },
     {
-        "title": "CodeNames",
+        "title": "CodeNames", 
         "description": "Word-based game where teams compete to guess the words linked by clues.",
-        "mood": ["Inquisitive", "Happily Self-Sufficient"],
         "img_url": "https://m.media-amazon.com/images/I/81RTivGRV6L._AC_UF894,1000_QL80_.jpg",
         "site_url": "https://czechgames.com/en/codenames/"
     },
     {
         "title": "Pandemic",
         "description": "Cooperative board game where players work together to stop global outbreaks.",
-        "mood": ["Heroic", "Survival"],
         "img_url": "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVqA__itemrep/img/wAMLbgihOl7dJDHnvqt7OXKEV-4=/fit-in/246x300/filters:strip_icc()/pic1534148.jpg",
         "site_url": "https://www.zmangames.com/en/products/pandemic/"
     },
     {
-        "title": "Ticket to Ride",
+        "title": "Ticket to Ride", 
         "description": "Board game of building train routes across a map.",
-        "mood": ["Happily Self-Sufficient", "Heroic"],
         "img_url": "https://in.boredgamecompany.com/wp-content/uploads/2020/08/pic66668.jpg",
         "site_url": "https://www.daysofwonder.com/ticket-to-ride/"
     },
     {
-        "title": "Clue",
+        "title": "Clue", 
         "description": "Board game of solving a murder mystery.",
-        "mood": ["Inquisitive", "Happily Self-Sufficient"],
         "img_url": "https://i5.walmartimages.com/seo/Clue-Classic-Mystery-Board-Game-with-Activity-Sheet-for-Kids-and-Family-Ages-8-and-Up-2-6-Players-Only-At-Walmart_c146a32b-d94b-4b07-8767-63f7449b2880.d8d93645e52f94628b335bfb7294fd10.jpeg",
         "site_url": "https://shop.hasbro.com/en-us/product/clue-game-2013-edition/9BCB9C5E-5056-9047-F505-6D1166C5961E"
     },
     {
-        "title": "Dead of Winter",
+        "title": "Dead of Winter", 
         "description": "Survival game set in a zombie apocalypse with hidden objectives.",
-        "mood": ["Survival", "Spoopy"],
         "img_url": "https://herebebooksandgames.com/cdn/shop/products/2663.jpg?v=1659056325",
         "site_url": "https://www.fantasyflightgames.com/en/products/dead-of-winter/"
     },
     {
-        "title": "Left 4 Dead",
+        "title": "Left 4 Dead", 
         "description": "First-person shooter game with cooperative gameplay in a zombie apocalypse.",
-        "mood": ["Survival", "Spoopy"],
         "img_url": "https://m.media-amazon.com/images/I/51leeKfJ22L._AC_UF1000,1000_QL80_.jpg",
         "site_url": "https://store.steampowered.com/app/500/Left_4_Dead/"
     },
     {
         "title": "Resident Evil",
         "description": "Horror game series featuring survival against zombies and monsters.",
-        "mood": ["Spoopy", "Survival"],
         "img_url": "https://i.ebayimg.com/images/g/zRMAAOSweo5g3Owc/s-l1200.webp",
         "site_url": "https://www.residentevil.com/"
     },
     {
-        "title": "Silent Hill",
+        "title": "Silent Hill", 
         "description": "Horror game known for its psychological horror elements.",
-        "mood": ["Spoopy"],
         "img_url": "https://pbs.twimg.com/media/FsCijX-WYAERyQb.jpg",
         "site_url": "https://www.konami.com/games/silenthill/gate"
     },
     {
-        "title": "Dark Souls",
+        "title": "Dark Souls", 
         "description": "Action RPG game with challenging gameplay and dark themes.",
-        "mood": ["Heroic", "Spoopy"],
         "img_url": "https://upload.wikimedia.org/wikipedia/en/8/8d/Dark_Souls_Cover_Art.jpg",
         "site_url": "https://www.fromsoftware.jp/ww/detail.html?csm=086"
     },
     {
         "title": "The Last of Us",
         "description": "Action-adventure game set in a post-apocalyptic world.",
-        "mood": ["Survival", "Heroic"],
         "img_url": "https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg",
         "site_url": "https://www.thelastofus.playstation.com/"
     },
     {
         "title": "Minecraft",
         "description": "Sandbox game allowing players to build and explore worlds.",
-        "mood": ["Happily Self-Sufficient", "Inquisitive"],
         "img_url": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000000964/a28a81253e919298beab2295e39a56b7a5140ef15abdb56135655e5c221b2a3a",
         "site_url": "https://www.minecraft.net/"
     },
     {
         "title": "Portal",
         "description": "Puzzle game involving the use of portals to solve challenges.",
-        "mood": ["Inquisitive"],
         "img_url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Portal_standalonebox.jpg",
         "site_url": "https://store.steampowered.com/app/400/"
     },
     {
         "title": "Gloomhaven",
         "description": "Cooperative tactical RPG board game with a fantasy setting.",
-        "mood": ["Heroic", "Inquisitive"],
         "img_url": "https://m.media-amazon.com/images/I/51bktYIazWL._AC_.jpg",
         "site_url": "https://www.cephalofair.com/gloomhaven/"
     },
     {
-        "title": "Dixit",
+        "title": "Dixit", 
         "description": "Card game of abstract storytelling and interpretation.",
-        "mood": ["Inquisitive", "Happily Self-Sufficient"],
         "img_url": "https://m.media-amazon.com/images/I/91w5vzmt5FL._AC_UF894,1000_QL80_.jpg",
         "site_url": "https://www.libellud.com/dixit/"
     },
     {
-        "title": "Catan",
+        "title": "Catan", 
         "description": "Board game of resource management and strategy.",
-        "mood": ["Happily Self-Sufficient"],
         "img_url": "https://upload.wikimedia.org/wikipedia/en/a/a3/Catan-2015-boxart.jpg",
         "site_url": "https://www.catan.com/"
     },
     {
-        "title": "Monopoly",
+        "title": "Monopoly", 
         "description": "Board game of real estate trading and strategy.",
-        "mood": ["Happily Self-Sufficient"],
         "img_url": "https://target.scene7.com/is/image/Target/GUEST_b0d35301-3a19-442e-a80a-ba9885cd60a0?wid=488&hei=488&fmt=pjpeg",
         "site_url": "https://shop.hasbro.com/en-us/product/monopoly-classic-game/7EABAF97-5056-9047-F577-8F4663C79E75"
     },
     {
-        "title": "Garry’s Mod",
+        "title": "Garry’s Mod", 
         "description": "Sandbox game that allows players to create and manipulate game environments.",
-        "mood": ["Happily Self-Sufficient", "Inquisitive"],
         "img_url": "https://steamuserimages-a.akamaihd.net/ugc/2032851493626593123/F3CBC45E1D9363116625D789AAC418BB53916A56/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
         "site_url": "https://garrysmod.com/"
     },
     {
         "title": "Hades",
         "description": "Action roguelike game set in the underworld with mythological elements.",
-        "mood": ["Heroic", "Spoopy"],
         "img_url": "https://upload.wikimedia.org/wikipedia/en/c/cc/Hades_cover_art.jpg",
         "site_url": "https://www.supergiantgames.com/games/hades/"
     },
     {
-        "title": "Uncharted",
+        "title": "Uncharted", 
         "description": "Action-adventure game featuring treasure hunting and exploration.",
-        "mood": ["Heroic", "Happily Self-Sufficient"],
         "img_url": "https://gmedia.playstation.com/is/image/SIEPDC/uncharted-hub-listing-thumb-en-16aug21?$facebook$",
         "site_url": "https://www.unchartedthegame.com/"
     },
     {
-        "title": "A Way Out",
+        "title": "A Way Out", 
         "description": "Co-op game where players must work together to escape prison.",
-        "mood": ["Heroic", "Survival"],
         "img_url": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA08004_00/3/i_7001e8db890d1a56573af505dc412a20d1cce9cf5dc4ba913f2a127810a5343e/i/icon0.png",
         "site_url": "https://www.ea.com/games/a-way-out"
     },
     {
-        "title": "Hollow Knight",
+        "title": "Hollow Knight", 
         "description": "Action-adventure game set in a dark, mysterious world.",
-        "mood": ["Spoopy", "Inquisitive"],
         "img_url": "https://upload.wikimedia.org/wikipedia/en/0/04/Hollow_Knight_first_cover_art.webp",
         "site_url": "https://hollowknight.com/"
+    },
+    {
+        "title": "Coup", 
+        "description": "Card game of bluffing and strategy in a dystopian future.",
+        "img_url": "2wCEAAkGBxASEBIQEBIVFRUXFRUVFhUVFRUVEBcVFRUWFxUXFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGy0mHyUrLS0rLS8tLS0tLS0tLS0tLS0tLS0tLS02LS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLf",
+        "site_url": "https://www.indieboardsandcards.com/coup"
+    },
+    {
+        "title": "One Night Ultimate Werewolf", 
+        "description": "A fast-paced party game with hidden roles and deduction.",
+        "img_url": "https://beziergames.com/cdn/shop/products/ONUW_272896be-e795-4aec-9e37-ccd43ca0872d_400x.png?v=1653932533",
+        "site_url": "https://www.beziergames.com/collections/one-night-ultimate-werewolf"
+    },
+    {
+        "title": "Spyfall", 
+        "description": "Party game where players ask each other questions to find the spy.",
+        "img_url": "https://cryptozoic.com/cdn/shop/products/Spyfall-CZE-Thumbnail_700x700.jpg?v=1619039273",
+        "site_url": "https://cryptozoic.com/products/spyfall-game?_pos=1&_sid=f7aed4c32&_ss=r"
+    },
+    {
+        "title": "Sheriff of Nottingham",
+        "description": "Game of bluffing and negotiation in a medieval market.",
+        "img_url": "https://cdn.shoplightspeed.com/shops/633683/files/29450318/1600x2048x1/cool-mini-or-not-sheriff-of-nottingham.jpg",
+        "site_url": "https://www.gamenightgames.com/shf003.html"
+    },
+    {
+        "title": "Secret of Mana", 
+        "description": "Action RPG with a fantasy world and real-time combat.",
+        "img_url": "https://fyre.cdn.sewest.net/mana-hub/6614bdf45a1a8ff866e83747/secret-of-mana-screen-5-2m2kiniaQJ.jpg?quality=85&width=1024",
+        "site_url": "https://mana.square-enix-games.com/en-us/games/secret-of-mana"
+    },
+    {
+        "title": "Darkest Dungeon", 
+        "description": "RPG with challenging dungeon crawling and psychological stress.",
+        "img_url": "https://img2.storyblok.com/fit-in/1536x1229/filters:format(webp)/f/127947/1845x1175/6d3eb0d2d7/darkest-dungeon-logo.png",
+        "site_url": "https://www.darkestdungeon.com/"
+    },
+    {
+        "title": "Slay the Spire", 
+        "description": "Deck-building roguelike game with strategic combat.",
+        "img_url": "https://megacrit.com/images/sts2_logo_website_hu38b4933139f6d56476527e78f843753b_278792_400x400_fit_q75_h2_lanczos_3.webp",
+        "site_url": "https://www.slaythespire.com/"
+    },
+    {
+        "title": "Fiasco", 
+        "description": "Role-playing game of collaborative storytelling gone awry.",
+        "img_url": "https://bullypulpitgames.com/cdn/shop/products/FiascoBoxed-grey_05b5469c-5308-4f17-929b-ff37a8093d51.jpg?v=1662415416&width=600",
+        "site_url": "https://bullypulpitgames.com/products/fiasco"
+    },
+    {
+        "title": "Blokus", 
+        "description": "Abstract strategy game of placing tiles on a board.",
+        "img_url": "https://images.mattel.net/image/upload/w_360,c_scale/shop-us-prod/files/ymwu2mv8kbfn3fbcjhux_61bb0841-5067-4a28-ad97-ab864e200137.jpg?v=1718321779",
+        "site_url": "https://shop.mattel.com/collections/games-blokus"
+    },
+    {
+        "title": "Betrayal at House on the Hill", 
+        "description": "Board game where players explore a haunted house with a hidden traitor.",
+        "img_url": "https://assets-us-01.kc-usercontent.com/500e0a65-283d-00ef-33b2-7f1f20488fe2/7c2818b9-9bc5-4a9f-9213-a0849dcbbca0/what%20you%20get%20image.png",
+        "site_url": "https://www.avalonhill.com/en-us/brand/betrayal-legacy"
+    },
+    {
+        "title": "Kingdomino", 
+        "description": "Tile-laying game where players build their kingdoms.",
+        "img_url": "https://blueorangegames.eu/wp-content/uploads/2017/04/Kingdomino-Box.jpg",
+        "site_url": "https://blueorangegames.eu/en/games/kingdomino/"
+    },
+    {
+        "title": "Wingspan", 
+        "description": "Board game where players build and manage a bird habitat.",
+        "img_url": "https://store.stonemaiergames.com/cdn/shop/products/3d-wingspan_540x.png?v=1569132201",
+        "site_url": "https://store.stonemaiergames.com/products/wingspan"
+    },
+    {
+        "title": "Azul", 
+        "description": "Tile-placement game where players create patterns on their board.",
+        "img_url": "https://cdn.svc.asmodee.net/production-nextmove/uploads/sites/4/2024/06/game_tittle_EN-2048x864.png",
+        "site_url": "https://www.nextmove-games.com/en/azul/"
+    },
+    {
+        "title": "Gloom", 
+        "description": "Card game of gloomy storytelling with dark humor.",
+        "img_url": "https://cdn.svc.asmodee.net/production-nextmove/uploads/sites/4/2024/04/Box_azul_1080x1080-2-700x700.png",
+        "site_url": "https://www.indieboardsandcards.com/gloom"
+    },
+    {
+        "title": "Quirkle", 
+        "description": "Abstract game of matching and pattern-building with shapes and colors.",
+        "img_url": "https://s7.orientaltrading.com/is/image/OrientalTrading/VIEWER_ZOOM/qwirkle~32016",
+        "site_url": "https://www.mindware.orientaltrading.com/qwirkle-a2-32016.fltr"
+    },
+    {
+        "title": "Scythe", 
+        "description": "Strategy game of building and conquering in an alternate-history 1920s setting.",
+        "img_url": "https://stonemaiergames.com/wp-content/uploads/2018/12/3d-scythe-768x767.png",
+        "site_url": "https://stonemaiergames.com/games/scythe/"
+    },
+    {
+        "title": "Blood Rage", 
+        "description": "Miniatures game of Viking clans battling for glory and conquest.",
+        "img_url": "https://www.cmon.com/wp-content/uploads/2023/06/d8b1f116-a497-47f7-ac92-69695b91dbcb.jpg",
+        "site_url": "https://www.cmon.com/products/blood-rage/"
+    },
+    {
+        "title": "Spirit Island", 
+        "description": "Cooperative board game where players defend an island from colonizers.",
+        "img_url": "https://greaterthangames.com/wp-content/uploads/2022/04/Spirit-Island.jpg",
+        "site_url": "https://greaterthangames.com/product/spirit-island/"
+    },
+    {
+        "title": "Terraforming Mars", 
+        "description": "Strategy board game where players develop and terraform Mars.",
+        "img_url": "https://strongholdgames.com/wp-content/uploads/sites/2/2019/12/3.png",
+        "site_url": "https://strongholdgames.com/terraforming-mars/"
+    },
+    {
+        "title": "Root", 
+        "description": "Asymmetric board game where players control factions vying for dominance in a forest.",
+        "img_url": "https://ledergames.com/cdn/shop/products/1-RootGameBox-Edit-Web.png?v=1595294735&width=720",
+        "site_url": "https://ledergames.com/root/"
+    },
+    {
+        "title": "Twilight Struggle", 
+        "description": "Two-player strategy game simulating the Cold War conflict.",
+        "img_url": "https://static.wixstatic.com/media/613e26_e9a695910f5a4cf3bed590286ea28651~mv2.png/v1/fill/w_980,h_535,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Map01sm_edited.png",
+        "site_url": "https://www.playdekgames.com/twilight-struggle"
+    },
+    {
+        "title": "Mystic Vale", 
+        "description": "Card game where players use a card-crafting system to build powerful cards.", 
+        "img_url": "https://alderac.com/wp-content/uploads/2024/01/Mystic-Vale-Essentials_Angulo.png",
+        "site_url": "https://www.alderac.com/mystic-vale/"
+    },
+    {
+        "title": "Eldritch Horror", 
+        "description": "Cooperative game of fighting against cosmic horrors and uncovering mysteries.",
+        "img_url": "https://images-cdn.fantasyflightgames.com/filer_public/49/55/49554c82-ff80-4231-9a54-f1ac4c3f49a9/eh01_boxlayout.png",
+        "site_url": "https://www.fantasyflightgames.com/en/products/eldritch-horror/"
+    },
+    {
+        "title": "The Quacks of Quedlinburg", 
+        "description": "Push-your-luck game where players brew potions to gain victory points.",
+        "img_url": "https://www.schmidtspiele.de/assets/images/4/88220_The_Quacks_of_Quedlinburg_72ppi_Packshot-a24cfcd3.jpg",
+        "site_url": "https://www.schmidtspiele.de/detail/product/the-quacks-of-quedlinburg.html"
+    },
+    {
+        "title": "Railroad Ink", 
+        "description": "Roll-and-write game where players draw routes to connect their railways.",
+        "img_url": "https://horribleguild.com/eu/wp-content/uploads/2021/07/RRI_WEB_Blue_Box3D.png",
+        "site_url": "https://horribleguild.com/eu/product-tag/railroad-ink/"
     }
 ]
