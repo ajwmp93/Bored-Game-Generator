@@ -5,19 +5,23 @@ const Moods = require('./Moods')
 const GameMoods = require('./GameMoods')
 
 User.belongsToMany(Games, {
-  through: Favorites
+  through: Favorites,
+  foreignKey: 'user_id',
 });
 
 Games.belongsToMany(User, {
-  through: Favorites 
+  through: Favorites,
+  foreignKey: 'game_id',
 });
 
 Games.belongsToMany(Moods, {
-  through: GameMoods
+  through: GameMoods,
+  foreignKey: 'game_id',
 });
 
 Moods.belongsToMany(Games, {
-  through: GameMoods
+  through: GameMoods,
+  foreignKey: 'mood_id',
 });
 
 module.exports = { User, Favorites, Games, Moods, GameMoods };

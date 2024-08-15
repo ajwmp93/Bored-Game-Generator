@@ -1,4 +1,23 @@
-{{ user.name }}
-{{#each user.games as |game|}}
-{{> gameCard}}
-{{/each}}
+<div class="container">
+    <!-- Welcome Message -->
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Welcome, {{name}}!</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- Game Cards Section -->
+    <section class="section">
+      <div class="columns is-multiline">
+        {{#each user.games as |game|}}
+          <div class="column is-one-quarter">
+            {{> gameCard game=game}}
+          </div>
+        {{/each}}
+      </div>
+    </section>
+  </div>
+
+
