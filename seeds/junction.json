@@ -1,5 +1,4 @@
-{
-    "junction": [
+     [
         {
             "game_id": 1,
             "mood_id": 1 
@@ -348,10 +347,7 @@
             "game_id": 46,
             "mood_id": 2
         },
-        {
-            "game_id": 46,
-            "mood_id": 2
-        },
+        
         {
             "game_id": 47,
             "mood_id": 2
@@ -393,4 +389,4 @@
             "mood_id": 3
         }
     ]
-}
+
