@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { Games, User } = require('../models'); 
+const { Games, User, GameMoods, Moods } = require('../models'); 
 
 // Home route
 router.get('/', async (req, res) => {
@@ -34,9 +34,8 @@ router.get('/moods', async (req, res) => {
 
     // Query the database for games with the selected mood
     const games = await Games.findAll({
-      where: {
-        mood: selectedMood,
-      },
+      include: {model: Moods, where: {name:selectedMood}} 
+      
     });
 console.log(games)
     // Render the view with the list of games and the selected mood

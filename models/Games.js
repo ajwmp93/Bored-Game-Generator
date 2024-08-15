@@ -20,11 +20,7 @@ Games.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    mood: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    img_url: {
+        img_url: {
       type: DataTypes.STRING,
       validate: {
         isUrl: true,
