@@ -1,64 +1,69 @@
-const router = require('express').Router();
-// Import the User model from the models folder
+const express = require('express');
+const router = express.Router();
 const { User } = require('../../models');
+const withAuth = require('../../middleware/auth');
 
-// If a POST request is made to /api/users, a new user is created. The user id and logged in state is saved to the session within the request object.
+// Validate input function
+const validateUserInput = (input) => {
+  const { email, password, name } = input;
+  if (!email || !password || !name) {
+    return 'All fields are required';
+  }
+
+  return null;
+};
+
+// Create a new user
 router.post('/', async (req, res) => {
+  const validationError = validateUserInput(req.body);
+  if (validationError) {
+    return res.status(400).json({ message: validationError });
+  }
+
   try {
     const userData = await User.create(req.body);
-
     req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
-
-      res.status(200).json(userData);
+      res.status(201).json(userData); 
     });
   } catch (err) {
-    res.status(400).json(err);
+    console.error('Error creating user:', err);
+    res.status(500).json({ message: 'Failed to create user' });
   }
 });
 
-// If a POST request is made to /api/users/login, the function checks to see if the user information matches the information in the database and logs the user in. If correct, the user ID and logged-in state are saved to the session within the request object.
+// Log in a user
 router.post('/login', async (req, res) => {
   try {
-    const userData = await User.findOne({ where: { email: req.body.email } });
+    const { email, password } = req.body;
+    const user = await User.findOne({ where: { email } });
 
-    if (!userData) {
-      res
-        .status(400)
-        .json({ message: 'Incorrect email or password, please try again' });
-      return;
+    if (!user || !user.checkPassword(password)) { // Assuming you have a method to validate password
+      return res.status(400).json({ message: 'Invalid email or password' });
     }
 
-    const validPassword = await userData.checkPassword(req.body.password);
+    req.session.user_id = user.id; // Store user ID in session
+    req.session.logged_in = true;
 
-    if (!validPassword) {
-      res
-        .status(400)
-        .json({ message: 'Incorrect email or password, please try again' });
-      return;
-    }
-
-    req.session.save(() => {
-      req.session.user_id = userData.id;
-      req.session.logged_in = true;
-      
-      res.json({ user: userData, message: 'You are now logged in!' });
-    });
-
+    res.json({ redirect: '/favorites'});
   } catch (err) {
-    res.status(400).json(err);
+    res.status(500).json({ message: 'An error occurred during login' });
   }
 });
 
-// If a POST request is made to /api/users/logout, the function checks the logged_in state in the request.session object and destroys that session if logged_in is true.
+// Log out a user
 router.post('/logout', (req, res) => {
-  if (req.session.logged_in) {
-    req.session.destroy(() => {
-      res.status(204).end();
+  // Assuming you are using sessions
+  if (req.session) {
+    req.session.destroy((err) => {
+      if (err) {
+        return res.status(500).json({ message: 'Failed to log out' });
+      }
+      res.status(200).json({ message: 'Logged out successfully' });
     });
   } else {
-    res.status(404).end();
+    res.status(400).json({ message: 'No active session' });
   }
 });
 
