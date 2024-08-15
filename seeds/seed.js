@@ -5,7 +5,7 @@ const gameData = require('./gameData.json');
 const userData = require('./userData.json');
 const favoriteData = require('./favoriteData.json');
 const moodData = require('./moodData.json')
-const gameMoodData = require('./gam')
+const gameMoodData = require('./junction.json')
 
 
 const seedDatabase = async () => {
@@ -27,9 +27,13 @@ const seedDatabase = async () => {
     individualHooks: true,
     returning: true,
   });
-  
-
+  const gameMood = await GameMoods.bulkCreate(gameMoodData, {
+    individualHooks: true,
+    returning: true,
+  });
   process.exit(0);
 };
 
 seedDatabase();
+
+
