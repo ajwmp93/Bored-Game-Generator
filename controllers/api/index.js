@@ -12,4 +12,3 @@ router.use('/check-session', sessionRoutes)
 
 
 module.exports = router;
-
