@@ -1,31 +1,59 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const heartIcon = document.querySelector('.fa-heart');
+  console.log('DOM fully loaded and parsed');
 
-  if (heartIcon) {
-    heartIcon.addEventListener('click', async () => {
-      // Check if user is logged in (you might use a global variable or local storage to check this)
-      const response = await fetch('/api/check-session', { method: 'GET' });
-      const { loggedIn } = await response.json();
+  // Use event delegation to handle clicks on the heart icon
+  document.body.addEventListener('click', async (event) => {
+    // Find the closest heart icon element
+    const heartIcon = event.target.closest('.fa-heart');
 
-      if (!loggedIn) {
-        window.location.href = '/login';
+    if (heartIcon) {
+      console.log('Heart icon clicked');
+
+      // Prevent the default action for the click event
+      event.preventDefault();
+
+      // Find the closest parent element with the data-game-id attribute
+      const parentElement = heartIcon.closest('[data-game-id]');
+      const gameId = parentElement ? parentElement.dataset.gameId : null;
+      
+      console.log(`Game ID: ${gameId}`);
+
+      if (!gameId) {
+        console.warn('No game ID found for heart icon.');
         return;
       }
 
-      // User is logged in, proceed to save favorite
-      const gameId = heartIcon.dataset.gameId; // Ensure you have gameId available on the icon
+      try {
+        // Check session status
+        const sessionResponse = await fetch('/api/check-session', { method: 'GET' });
+        const { logged_in } = await sessionResponse.json();
+        console.log(`Logged in status: ${logged_in}`);
 
-      const favoriteResponse = await fetch('/api/favorites', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ game_id: gameId }),
-      });
+        if (!logged_in) {
+          console.log('User is not logged in, redirecting to login');
+          window.location.href = '/login';
+          return;
+        }
 
-      if (favoriteResponse.ok) {
-        alert('Added to favorites!');
-      } else {
-        alert('Failed to add to favorites.');
+        // Post favorite data
+        const favoriteResponse = await fetch('/api/favorites', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ game_id: gameId }),
+        });
+
+        if (favoriteResponse.ok) {
+          console.log('Added to favorites successfully');
+          alert('Added to favorites!');
+        } else {
+          const errorData = await favoriteResponse.json();
+          console.error('Failed to add to favorites:', errorData);
+          alert(`Failed to add to favorites: ${errorData.message}`);
+        }
+      } catch (error) {
+        console.error('Error during favorite addition:', error);
+        alert('An error occurred while adding to favorites.');
       }
-    });
-  }
+    }
+  });
 });

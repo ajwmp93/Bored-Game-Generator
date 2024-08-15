@@ -13,12 +13,24 @@ router.post('/', authMiddleware, async (req, res) => {
       return res.status(401).json({ message: 'User not authenticated' });
     }
 
-    // Create or update the favorite
+    // Check if the favorite already exists
+    const existingFavorite = await Favorites.findOne({
+      where: { game_id, user_id }
+    });
+
+    if (existingFavorite) {
+      // If the favorite already exists, you can choose to either
+      // return a message indicating that it's already a favorite
+      return res.status(400).json({ message: 'Favorite already exists' });
+    }
+
+    // Create a favorite entry in the database
     const favorite = await Favorites.create({ game_id, user_id });
 
     res.status(200).json(favorite);
   } catch (err) {
-    res.status(500).json(err);
+    console.error('Error adding favorite:', err.message);
+    res.status(500).json({ message: 'Error adding favorite', error: err.message });
   }
 });
 

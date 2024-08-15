@@ -41,8 +41,9 @@
       <div class="navbar-item">
         <div class="buttons">
 
-          {{#if logged_in}}
-          <a href="/" class="button is-primary" id="logout">Logout</a> |
+          {{#if logged_in}} 
+          <a href="/favorites" class="button is-primary" id="favorite">Favorites</a> |
+          <a href="/" class="button is-primary" id="logout">Logout</a> 
           {{else}}
           <a href="/login" class="button is-light">Login</a>
           {{/if}}
@@ -53,23 +54,6 @@
     </div>
   </div>
 </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -87,6 +71,7 @@
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
+    <script src="/js/favorite.js"></script>
 </body>
 
 </html>
