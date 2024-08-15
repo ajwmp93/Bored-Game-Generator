@@ -1,23 +1,13 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Games for Mood: {{mood}}</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-  <h1>Games for Mood: {{mood}}</h1>
-  
-  {{#if games.length}}
-    <div class="game-list">
-      {{#each games}}
-        {{> gameCard}}
-      {{/each}}
-    </div>
-  {{else}}
-    <p>No games found for this mood.</p>
-  {{/if}}
-  
-  <a href="/">Back to Homepage</a>
-</body>
+<h1>Games for Mood: {{mood}}</h1>
 
+{{#if games.length}}
+<div class="game-list">
+  {{#each games}}
+  {{> gameCard}}
+  {{/each}}
+</div>
+{{else}}
+<p>No games found for this mood.</p>
+{{/if}}
+
+<a href="/">Back to Homepage</a>
