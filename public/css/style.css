@@ -1,6 +1,16 @@
 html {
     background-color: #b36256;
 }
+.main {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    padding: 40px;
+}
+h1 {
+    color: black;
+    padding: 20px;
+}
 .navbar {
     background-color: #b36256;
     display: flex;
@@ -8,7 +18,7 @@ html {
 }
 .info {
     color: black;
-    padding: 50px;
+    padding: 30px;
 }
 .card {
     background-color: #cfe7f4;
@@ -18,12 +28,7 @@ html {
 }
 .welcome {
     border-radius: 15px;
-    background-color: #cfe7f4;
-}
-.main {
-    color: black;
-    text-align: center;
-    text-decoration: underline;
+    background-color: #b36256;
 }
 .footer {
     background-color: #b36256;
