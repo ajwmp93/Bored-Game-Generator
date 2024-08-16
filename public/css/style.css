@@ -1,0 +1,21 @@
+html {
+    background-color: #b36256;
+}
+.navbar {
+    background-color: #b36256;
+}
+.card {
+    background-color: #cfe7f4;
+}
+.box {
+    background-color: #cfe7f4;
+}
+.welcome {
+    border-radius: 15px;
+    background-color: #cfe7f4;
+}
+.main {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
