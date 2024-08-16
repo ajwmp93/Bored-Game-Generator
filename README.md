@@ -1,4 +1,4 @@
-Project Idea: MoodMatch - Game Recommendation App
+Project Idea: Bored Game Generator
 Overview
 Develop a web application where users can get game recommendations based on their current mood. Users can select their mood, view recommended games that fit their emotional state, and browse details about each game. The app will also allow users to rate and review games based on their experiences.
 
