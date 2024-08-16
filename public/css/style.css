@@ -1,0 +1,35 @@
+html {
+    background-color: #b36256;
+}
+.main {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    padding: 40px;
+}
+h1 {
+    color: black;
+    padding: 20px;
+}
+.navbar {
+    background-color: #b36256;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info {
+    color: black;
+    padding: 30px;
+}
+.card {
+    background-color: #cfe7f4;
+}
+.box {
+    background-color: #cfe7f4;
+}
+.welcome {
+    border-radius: 15px;
+    background-color: #b36256;
+}
+.footer {
+    background-color: #b36256;
+}

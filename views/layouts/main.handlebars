@@ -5,73 +5,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bored Game Generator</title>
-<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
   <link rel="stylesheet" href="/css/style.css">
-  
 </head>
 
 <body>
   <div>
     <header>
-      <h1 class="title is-1">
+      <h1 class="title is-1 main">
         Bored Game Generator
       </h1>
-
-
-
-
-
-
-
-
-<nav class="navbar" role="navigation" aria-label="main navigation">
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a href="/" class="navbar-item">
-        Home
-      </a>
-
-
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-
-          {{#if logged_in}} 
-          <a href="/favorites" class="button is-primary" id="favorite">Favorites</a> |
-          <a href="/" class="button is-primary" id="logout">Logout</a> 
-          {{else}}
-          <a href="/login" class="button is-light">Login</a>
-          {{/if}}
-
-
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <!-- Hamburger menu button -->
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item">
+                <a href="/" class="button is-light">Home</a> |
+              </div>
+            </div>
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  {{#if logged_in}}
+                  <a href="/favorites" class="button is-light" id="favorite">Favorites</a> |
+                  <a href="/" class="button is-light" id="logout">Logout</a>
+                  {{else}}
+                  <a href="/login" class="button is-light">Login</a>
+                  {{/if}}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</nav>
-
-
-
+      </nav>
     </header>
     <main>
       <!-- Render the sub layout -->
       {{{ body }}}
     </main>
-    <footer>
-      
+    <footer class="footer">
+        <div class="content has-text-centered">
+    <p>
+      <strong>Bored Game Generator</strong> by <a href="https://github.com/defrak2">Kendra Defrancisco</a>, <a href="https://github.com/ajwmp93">Ashley Wright</a>, <a href="https://github.com/CFeltes">Cory Feltes</a>, and <a href="https://github.com/cwfran37">Caleb Francis</a>.
+      The source code is licensed
+      <a href="https://opensource.org/license/mit">MIT</a>.
+    </p>
+  </div>
     </footer>
   </div>
-
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
-    <script src="/js/favorite.js"></script>
+  <script src="/js/favorite.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      //const el = document.querySelector('.navbar-burger')
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+        console.log('hamburger')
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+            console.log('hamburger1')
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the class on the target
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+          });
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>
