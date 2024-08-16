@@ -3,6 +3,12 @@ html {
 }
 .navbar {
     background-color: #b36256;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info {
+    color: black;
+    padding: 50px;
 }
 .card {
     background-color: #cfe7f4;
@@ -18,4 +24,7 @@ html {
     color: black;
     text-align: center;
     text-decoration: underline;
+}
+.footer {
+    background-color: #b36256;
 }
